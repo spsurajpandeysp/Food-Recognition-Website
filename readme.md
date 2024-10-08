@@ -1,4 +1,4 @@
-# Food Recognition System
+# Food Recognition Website
 
 A deep learning-based web application designed to recognize food items and provide nutritional details like calories, vitamins, proteins and etc. The system supports real-time analysis through camera mode, food name search, and image upload functionality. It leverages advanced image recognition models for a seamless user experience.
 
