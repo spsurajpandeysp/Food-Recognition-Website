@@ -109,9 +109,6 @@ npm start
 
 ---
  
-   
-
-
 ## Schemas
   - Contact Us Schema: Manages the data for user inquiries via the contact form.
   - Food Data Schema: Stores information about food items, including their nutritional content.
@@ -122,7 +119,8 @@ npm start
 For any inquiries or support, feel free to contact:
 - **Name**: [Suraj Pandey]
 - **Email**: [surajpandey7493@gmail.com]
-- **GitHub**: [https://github.com/spsurajpandeysp](https://github.com/spsurajpandeysp)
+- **GitHub**: [https://github.com/spsurajpandeysp](https://github.com/spsurajpandeysp)]
+- **My Portfolio**: [https://github.com/spsurajpandeysp](https://surajpandey.vercel.app)]
 
 
 🌟 **Thank You for Taking the Time to Explore Our Project!** 🌟
