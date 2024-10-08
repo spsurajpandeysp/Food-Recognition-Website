@@ -1,0 +1,145 @@
+/* Main container */
+.output-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 20px;
+  background-color: #e0f7fa;
+}
+
+/* Card design */
+.output-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90%;
+  max-width: 1300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  position: relative;
+}
+
+/* Hover animation */
+.output-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Title styling */
+.output-title {
+  background-color: #00796b;
+  color: white;
+  font-size: 28px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Content wrapper */
+.output-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+/* Circular image frame */
+.image-wrapper {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+  border: 5px solid #00796b;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.output-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Keep the image proportions */
+  transition: transform 0.3s ease;
+}
+
+.output-image:hover {
+  transform: scale(1.05); /* Image zoom on hover */
+}
+
+/* Chart container */
+.chart-wrapper {
+  width: 100%;
+  max-width: 350px;
+  height: 350px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.chart-pie {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Nutritional info styling */
+.nutrition-info {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.info-title {
+  font-size: 23px;
+  font-weight: bold;
+  color: #004d40;
+  margin-bottom: 15px;
+}
+
+.nutrition-info p {
+  margin: 8px 0;
+  font-size: 22px;
+  color: #004d40;
+}
+
+/* Responsive Design */
+@media (min-width: 1408px) {
+  .output-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .chart-wrapper,
+  .nutrition-info {
+    margin: 0 20px;
+  }
+  
+}
+@media(max-width:1407px){
+  .image-wrapper {
+    width: 300px;
+    height: 300px;
+
+  }
+}
+@media(max-width:495px){
+  .image-wrapper {
+    width: 250px;
+    height: 250px;
+
+  }
+}
+@media(max-width:445px){
+  .image-wrapper {
+    width: 150px;
+    height: 150px;
+
+  }
+}
+

@@ -1,0 +1,25 @@
+.carousel-img {
+    max-width: 100%;
+    max-height: 95vh;
+    object-fit: fit;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    background-size: 100%, 100%;
+}
+.home-container{
+    padding-top: 123px;
+    background-color: #e0f7fa;
+}
+.home-container{
+    padding-top: 56px;
+    background-color: #e0f7fa;
+}
+@media(max-width:877px) {
+    .home-container{
+        padding-top: 123px;
+        background-color: #e0f7fa;
+    } 
+}
+

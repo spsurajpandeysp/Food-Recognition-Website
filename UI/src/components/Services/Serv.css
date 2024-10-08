@@ -1,0 +1,220 @@
+/* General Styling */
+.service {
+    padding: 20px 90px;
+    background-color: #e0f7fa;
+}
+
+.service-heading {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Panel Styling */
+.service-panel1,
+.service-panel2,
+.service-panel3 {
+    padding: 30px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-panel1:hover,
+.service-panel2:hover,
+.service-panel3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.service-panel1-image,
+.service-panel2-image,
+.service-panel3-image {
+    height: 400px;
+    width: 100%;
+    max-width: 550px;
+}
+
+/* Heading Styling */
+.service-panel1-heading,
+.service-panel2-heading,
+.service-panel3-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Form Styling */
+.service-panel1-form,
+.service-panel2-form,
+.service-panel3-form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+}
+
+.service-panel1-submit,
+.service-panel2-submit,
+.service-panel3-submit {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.service-panel1-submit:hover,
+.service-panel2-submit:hover,
+.service-panel3-submit:hover {
+    background-color: darkgreen;
+}
+
+.service-panel1-capture-on,
+.service-panel1-capture-off {
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.service-panel1-capture-on {
+    background-color: rgb(94, 94, 209);
+}
+
+.service-panel1-capture-off {
+    background-color: rgb(171, 41, 41);
+}
+
+.service-panel1-capture-on:hover {
+    background-color: rgb(40, 40, 197);
+}
+
+.service-panel1-capture-off:hover {
+    background-color: rgb(168, 21, 21);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1249px) {
+    .service-panel1,
+    .service-panel2,
+    .service-panel3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 736px) {
+    .service {
+        padding: 10px 30px;
+    }
+
+    .service-panel1-image,
+    .service-panel2-image,
+    .service-panel3-image {
+        height: 250px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .service-panel1-form,
+    .service-panel2-form,
+    .service-panel3-form {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 594px) {
+    .service {
+        padding: 10px 15px;
+    }
+
+    .service-panel1-image,
+    .service-panel2-image,
+    .service-panel3-image {
+        height: 200px;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .service-panel1-form,
+    .service-panel2-form,
+    .service-panel3-form {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 507px) {
+    .service-panel1-image,
+    .service-panel2-image,
+    .service-panel3-image {
+        height: 180px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .service-panel1-form,
+    .service-panel2-form,
+    .service-panel3-form {
+        max-width: 300px;
+    }
+}
+.service-panel1-submit:hover{
+    background-color: #007300;
+    transform: scale(1.05);
+}
+.service-panel2-submit:hover{
+    background-color: #007300;
+    transform: scale(1.05);
+}
+.service-panel3-submit:hover {
+    background-color: #007300;
+    transform: scale(1.05);
+}
+
+.service-panel1-label,
+.service-panel2-label,
+.service-panel3-label {
+    font-weight: bold;
+}
+
+.service-panel1-capture-on{
+    background-color: rgb(54, 54, 200);
+    padding: 5px;
+    color: white;
+    font-size: 23px;
+    width: 250px;
+    border: none;
+}
+.service-panel1-capture-off{
+    background-color: rgb(171, 41, 41);
+    padding: 5px;
+    color: white;
+    font-size: 23px;
+    width: 250px;
+    border: none;
+}
+.service-panel1-camera-div{
+    display:flex;
+    justify-content: space-between;
+}
